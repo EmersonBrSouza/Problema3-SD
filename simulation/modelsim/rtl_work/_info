@@ -1,0 +1,208 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/T-Gamer/Desktop/Problema 3/simulation/modelsim
+varbitro
+Z1 !s110 1550063976
+!i10b 1
+!s100 W1U=Gd2e7`bIloM02?:M:2
+IXG:9Y7AedXd=m6>oUGlo@1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1549986089
+8C:/Users/T-Gamer/Desktop/Problema 3/arbitro.v
+FC:/Users/T-Gamer/Desktop/Problema 3/arbitro.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1550063976.000000
+!s107 C:/Users/T-Gamer/Desktop/Problema 3/arbitro.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/T-Gamer/Desktop/Problema 3|C:/Users/T-Gamer/Desktop/Problema 3/arbitro.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/T-Gamer/Desktop/Problema 3}
+Z7 tCvgOpt 0
+vbaudrate_generator
+R1
+!i10b 1
+!s100 BgXV90_59lijcS@aZEh^K3
+ILbCoR?E9GLcDBojYXd^8:2
+R2
+R0
+w1549937901
+8C:/Users/T-Gamer/Desktop/Problema 3/baudrate_generator.v
+FC:/Users/T-Gamer/Desktop/Problema 3/baudrate_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/T-Gamer/Desktop/Problema 3/baudrate_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/T-Gamer/Desktop/Problema 3|C:/Users/T-Gamer/Desktop/Problema 3/baudrate_generator.v|
+!i113 1
+R5
+R6
+R7
+vmaquina
+R1
+!i10b 1
+!s100 4m`OUb0d]]JCYlE7z7_E=0
+I6]>kUDmJMAz:NUOn`Ci2]2
+R2
+R0
+w1550063750
+8C:/Users/T-Gamer/Desktop/Problema 3/maquina.v
+FC:/Users/T-Gamer/Desktop/Problema 3/maquina.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/T-Gamer/Desktop/Problema 3/maquina.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/T-Gamer/Desktop/Problema 3|C:/Users/T-Gamer/Desktop/Problema 3/maquina.v|
+!i113 1
+R5
+R6
+R7
+vnegedge_detector
+R1
+!i10b 1
+!s100 SNRm_LOE8U8B;2GC1fBUj1
+IbCQPNen29Z[VT^ClAoZil2
+R2
+R0
+w1549986060
+8C:/Users/T-Gamer/Desktop/Problema 3/negedge_detector.v
+FC:/Users/T-Gamer/Desktop/Problema 3/negedge_detector.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/T-Gamer/Desktop/Problema 3/negedge_detector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/T-Gamer/Desktop/Problema 3|C:/Users/T-Gamer/Desktop/Problema 3/negedge_detector.v|
+!i113 1
+R5
+R6
+R7
+vtb_state_WAIT_CHECKSUM_TO_WAIT_VERIFY_CHECKSUM
+!s110 1550064294
+!i10b 1
+!s100 ]@RbIm_FTJP]gHbFThZK:3
+IAd``dMB6;^zfE;g?]9UAB0
+R2
+R0
+w1549988466
+8C:/Users/T-Gamer/Desktop/Problema 3/tb_state_WAIT_CHECKSUM_TO_VERIFY_CHECKSUM.v
+FC:/Users/T-Gamer/Desktop/Problema 3/tb_state_WAIT_CHECKSUM_TO_VERIFY_CHECKSUM.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1550064294.000000
+!s107 C:/Users/T-Gamer/Desktop/Problema 3/tb_state_WAIT_CHECKSUM_TO_VERIFY_CHECKSUM.v|
+!s90 -reportprogress|300|-work|work|C:/Users/T-Gamer/Desktop/Problema 3/tb_state_WAIT_CHECKSUM_TO_VERIFY_CHECKSUM.v|
+!i113 1
+Z8 o-work work
+R7
+ntb_state_@w@a@i@t_@c@h@e@c@k@s@u@m_@t@o_@w@a@i@t_@v@e@r@i@f@y_@c@h@e@c@k@s@u@m
+vtb_state_WAIT_DATA_TO_WAIT_CHECKSUM
+!s110 1550064397
+!i10b 1
+!s100 _D@_FUFKJ1L]SMT[h3`?W3
+Ikbhbm;2e:1PNYOYY@>L`L1
+R2
+R0
+w1549987979
+8C:/Users/T-Gamer/Desktop/Problema 3/tb_state_WAIT_DATA_TO_WAIT_CHECKSUM.v
+FC:/Users/T-Gamer/Desktop/Problema 3/tb_state_WAIT_DATA_TO_WAIT_CHECKSUM.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1550064397.000000
+!s107 C:/Users/T-Gamer/Desktop/Problema 3/tb_state_WAIT_DATA_TO_WAIT_CHECKSUM.v|
+!s90 -reportprogress|300|-work|work|C:/Users/T-Gamer/Desktop/Problema 3/tb_state_WAIT_DATA_TO_WAIT_CHECKSUM.v|
+!i113 1
+R8
+R7
+ntb_state_@w@a@i@t_@d@a@t@a_@t@o_@w@a@i@t_@c@h@e@c@k@s@u@m
+vuart
+R1
+!i10b 1
+!s100 ?F?@OYkdE<o^3k>;_R4T43
+IMXWnkN^SdD=lYK<f[>Gac1
+R2
+R0
+w1549940486
+8C:/Users/T-Gamer/Desktop/Problema 3/uart.v
+FC:/Users/T-Gamer/Desktop/Problema 3/uart.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/T-Gamer/Desktop/Problema 3/uart.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/T-Gamer/Desktop/Problema 3|C:/Users/T-Gamer/Desktop/Problema 3/uart.v|
+!i113 1
+R5
+R6
+R7
+vuart_rx
+R1
+!i10b 1
+!s100 RGEm5j?hbRUKn412<boPn1
+If4n_zCkSi5?m_S9Sm7Uzd3
+R2
+R0
+w1549970041
+8C:/Users/T-Gamer/Desktop/Problema 3/uart_rx.v
+FC:/Users/T-Gamer/Desktop/Problema 3/uart_rx.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/T-Gamer/Desktop/Problema 3/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/T-Gamer/Desktop/Problema 3|C:/Users/T-Gamer/Desktop/Problema 3/uart_rx.v|
+!i113 1
+R5
+R6
+R7
+vuart_tx
+R1
+!i10b 1
+!s100 >7z=`RLSC5aO;fNAVKm0?2
+I=Eb?IOm5fQ4_iHYXeERoR2
+R2
+R0
+w1549985775
+8C:/Users/T-Gamer/Desktop/Problema 3/uart_tx.v
+FC:/Users/T-Gamer/Desktop/Problema 3/uart_tx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/T-Gamer/Desktop/Problema 3/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/T-Gamer/Desktop/Problema 3|C:/Users/T-Gamer/Desktop/Problema 3/uart_tx.v|
+!i113 1
+R5
+R6
+R7

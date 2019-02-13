@@ -1,0 +1,47 @@
+module tb_state_WAIT_DATA_TO_WAIT_CHECKSUM();
+
+reg rx,clk,reset,start;
+reg [31:0] dataa, datab;
+
+wire [31:0] result;
+wire [4:0] state;
+wire done;
+wire tx;
+
+arbitro arbitro(
+	.rx(rx),
+	.clk(clk),
+	.reset(reset),
+	.start(start),
+	.dataa(dataa),
+	.datab(datab),
+	.result(result),
+	.done(done),
+	.tx(tx),
+	.tx_busy(tx_busy),
+	.state(state)
+);
+
+initial begin
+	rx = 0;
+	clk = 0;
+	reset = 0;
+	start = 0;
+	dataa = 0;
+	datab = 0;
+end
+
+
+always @(posedge clk) begin
+	start <= 1;
+	dataa <= 8'd97;
+	
+	if (state == 3) begin
+		$display("State changed");
+		$stop;
+	end
+end
+
+always #1 clk = ~clk;
+
+endmodule

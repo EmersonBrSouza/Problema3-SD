@@ -1,0 +1,12 @@
+module maquina (
+	input clk,
+	input tx_busy,
+	input rdy,
+	input [7:0] rxdata,
+	input [7:0] txdata,
+	output done,
+	output wr_en,
+	output [31:0] result,
+);
+
+

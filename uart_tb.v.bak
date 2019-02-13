@@ -1,0 +1,54 @@
+`timescale 10ns/10ps
+
+module uart_tb();
+
+reg rx, clk,rdy_clr, wr_en;
+reg [7:0] data;
+
+wire rdy, tx, tx_busy, loopback;
+wire [7:0] received_data;
+
+uart uart (
+	.rx(loopback),
+	.clk(clk),
+	.rdy_clr(rdy_clr),
+	.wr_en(wr_en),
+	.data_send(data),
+	.rdy(rdy),
+	.tx(loopback),
+	.tx_busy(tx_busy),
+	.received_data(received_data)
+);
+
+
+initial begin
+	wr_en = 1'b1;
+	#2 wr_en = 1'b0;
+	rdy_clr = 0;
+	clk = 0;
+	rx = 0;
+	data = 0; 
+end
+
+
+always @(posedge rdy) begin
+	#2 rdy_clr <= 1;
+	#2 rdy_clr <= 0;
+	
+	if (received_data != data) begin
+		$display("FAIL: rx data %x does not match tx %x", received_data, data);
+		$stop;
+	end else begin
+		if (received_data == 8'hff) begin
+			$display("SUCCESS: all bytes verified");
+			$stop;
+		end
+		data <= data + 1'b1;
+		wr_en <= 1'b1;
+		#2 wr_en <= 1'b0;
+	end
+end
+
+always #1 clk = ~clk;
+
+endmodule
